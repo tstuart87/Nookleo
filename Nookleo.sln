@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nookleo.WebAPI", "Nookleo.WebAPI\Nookleo.WebAPI.csproj", "{22D4A8BA-8C2F-4C3B-9A98-5130BCFD84CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nookleo.Data", "Nookleo.Data\Nookleo.Data.csproj", "{DBE3EE59-7864-49DE-8262-C57E0342E219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nookleo.Models", "Nookleo.Models\Nookleo.Models.csproj", "{0CF42D6C-EFD1-4C60-882D-B0FE697E0804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nookleo.Services", "Nookleo.Services\Nookleo.Services.csproj", "{12F84945-C1BB-4661-9737-779B80648114}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22D4A8BA-8C2F-4C3B-9A98-5130BCFD84CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D4A8BA-8C2F-4C3B-9A98-5130BCFD84CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D4A8BA-8C2F-4C3B-9A98-5130BCFD84CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D4A8BA-8C2F-4C3B-9A98-5130BCFD84CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE3EE59-7864-49DE-8262-C57E0342E219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE3EE59-7864-49DE-8262-C57E0342E219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE3EE59-7864-49DE-8262-C57E0342E219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE3EE59-7864-49DE-8262-C57E0342E219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF42D6C-EFD1-4C60-882D-B0FE697E0804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF42D6C-EFD1-4C60-882D-B0FE697E0804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF42D6C-EFD1-4C60-882D-B0FE697E0804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF42D6C-EFD1-4C60-882D-B0FE697E0804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F84945-C1BB-4661-9737-779B80648114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F84945-C1BB-4661-9737-779B80648114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F84945-C1BB-4661-9737-779B80648114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F84945-C1BB-4661-9737-779B80648114}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B56FE65-B308-44E3-9DD6-BDA9982870AD}
+	EndGlobalSection
+EndGlobal

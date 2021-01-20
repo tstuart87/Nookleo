@@ -22,7 +22,7 @@ namespace Nookleo.WebAPI.Controllers.DataControllers
         }
 
         [HttpGet]
-        public IHttpActionResult GetLocationById([FromUri] int locationId)
+        public IHttpActionResult GetLocationById(int locationId)
         {
             LocationService locationService = CreateLocationService();
             var location = locationService.GetLocationById(locationId);

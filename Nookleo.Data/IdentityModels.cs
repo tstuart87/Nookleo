@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
+using Nookleo.Data.PeopleClasses;
 
 namespace Nookleo.Data
 {
@@ -36,8 +37,8 @@ namespace Nookleo.Data
         //add new DbSets from here
 
         public DbSet<Location> Locations { get; set; }
-
-
+        public DbSet<Cooperator> Cooperators { get; set; }
+        public DbSet<Employee> Employees { get; set; }
 
         //to here
 

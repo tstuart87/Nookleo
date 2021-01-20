@@ -54,7 +54,11 @@ namespace Nookleo.Services.ServicesLocation
                                 Latitude = e.Latitude,
                                 Longitude = e.Longitude,
                                 PlantingDate = e.PlantingDate,
-                                HarvestDate = e.HarvestDate
+                                HarvestDate = e.HarvestDate,
+                                Cooperator = e.Cooperator,
+                                TestingEmployee = e.TestingEmployee,
+                                ProductDevelopmentEmployee = e.ProductDevelopmentEmployee,
+                                BreedingEmployee = e.BreedingEmployee
                             }
                     );
 
@@ -80,14 +84,18 @@ namespace Nookleo.Services.ServicesLocation
                     Latitude = entity.Latitude,
                     Longitude = entity.Longitude,
                     PlantingDate = entity.PlantingDate,
-                    HarvestDate = entity.HarvestDate
+                    HarvestDate = entity.HarvestDate,
+                    Cooperator = entity.Cooperator,
+                    TestingEmployee = entity.TestingEmployee,
+                    ProductDevelopmentEmployee = entity.ProductDevelopmentEmployee,
+                    BreedingEmployee = entity.BreedingEmployee
                 };
             }
         }
 
         public bool UpdateLocation(LocationEdit model)
         {
-            using(var ctx = new ApplicationDbContext())
+            using (var ctx = new ApplicationDbContext())
             {
                 var entity = ctx
                     .Locations
@@ -100,6 +108,7 @@ namespace Nookleo.Services.ServicesLocation
                 entity.Longitude = model.Longitude;
                 entity.PlantingDate = model.PlantingDate;
                 entity.HarvestDate = model.HarvestDate;
+                entity.CooperatorId = model.CooperatorId;
 
                 return ctx.SaveChanges() == 1;
             }

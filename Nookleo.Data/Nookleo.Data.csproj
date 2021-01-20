@@ -94,12 +94,23 @@
     <Compile Include="Migrations\202101191747352_second.Designer.cs">
       <DependentUpon>202101191747352_second.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101200133188_cooperator.cs" />
+    <Compile Include="Migrations\202101200133188_cooperator.Designer.cs">
+      <DependentUpon>202101200133188_cooperator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101200352013_employee.cs" />
+    <Compile Include="Migrations\202101200352013_employee.Designer.cs">
+      <DependentUpon>202101200352013_employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PeopleClasses\Contact.cs" />
     <Compile Include="PeopleClasses\Cooperator.cs" />
     <Compile Include="PeopleClasses\Employee.cs" />
     <Compile Include="PeopleClasses\ExternalContact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaskClasses\CornTask.cs" />
+    <Compile Include="TaskClasses\SoybeanTask.cs" />
+    <Compile Include="TaskClasses\Task.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -112,6 +123,15 @@
     <EmbeddedResource Include="Migrations\202101191747352_second.resx">
       <DependentUpon>202101191747352_second.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101200133188_cooperator.resx">
+      <DependentUpon>202101200133188_cooperator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101200352013_employee.resx">
+      <DependentUpon>202101200352013_employee.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WeatherClasses\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

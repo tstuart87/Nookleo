@@ -1,4 +1,5 @@
 ﻿using Nookleo.Data;
+using Nookleo.Data.PeopleClasses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,5 +18,10 @@ namespace Nookleo.Models.ModelsLocation
         public double? Longitude { get; set; }
         public DateTimeOffset? PlantingDate { get; set; }
         public DateTimeOffset? HarvestDate { get; set; }
+        public Cooperator Cooperator { get; set; }
+        public Employee TestingEmployee { get; set; }
+        public Employee ProductDevelopmentEmployee { get; set; }
+        public Employee BreedingEmployee { get; set; }
+
     }
 }

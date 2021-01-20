@@ -36,3 +36,5 @@ C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.pdb
 C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.Migrations.InitialCreate.resources
 C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.csproj.GenerateResource.cache
 C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.Migrations.second.resources
+C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.Migrations.cooperator.resources
+C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.Migrations.employee.resources

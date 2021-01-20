@@ -84,6 +84,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModelsContact\CooperatorCreate.cs" />
+    <Compile Include="ModelsContact\CooperatorDetail.cs" />
+    <Compile Include="ModelsContact\CooperatorEdit.cs" />
+    <Compile Include="ModelsContact\CooperatorListItem.cs" />
+    <Compile Include="ModelsContact\EmployeeCreate.cs" />
+    <Compile Include="ModelsContact\EmployeeDetail.cs" />
+    <Compile Include="ModelsContact\EmployeeEdit.cs" />
+    <Compile Include="ModelsContact\EmployeeListItem.cs" />
     <Compile Include="ModelsLocation\LocationCreate.cs" />
     <Compile Include="ModelsLocation\LocationDetail.cs" />
     <Compile Include="ModelsLocation\LocationEdit.cs" />

@@ -17,5 +17,6 @@ namespace Nookleo.Models.ModelsLocation
         public double? Longitude { get; set; }
         public DateTimeOffset? PlantingDate { get; set; }
         public DateTimeOffset? HarvestDate { get; set; }
+        public int? CooperatorId { get; set; }
     }
 }

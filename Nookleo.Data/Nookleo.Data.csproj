@@ -102,6 +102,10 @@
     <Compile Include="Migrations\202101200352013_employee.Designer.cs">
       <DependentUpon>202101200352013_employee.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101221757034_meeting.cs" />
+    <Compile Include="Migrations\202101221757034_meeting.Designer.cs">
+      <DependentUpon>202101221757034_meeting.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PeopleClasses\Contact.cs" />
     <Compile Include="PeopleClasses\Cooperator.cs" />
@@ -111,6 +115,7 @@
     <Compile Include="TaskClasses\CornTask.cs" />
     <Compile Include="TaskClasses\SoybeanTask.cs" />
     <Compile Include="TaskClasses\Task.cs" />
+    <Compile Include="WeatherClasses\WeatherLog.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -129,9 +134,12 @@
     <EmbeddedResource Include="Migrations\202101200352013_employee.resx">
       <DependentUpon>202101200352013_employee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101221757034_meeting.resx">
+      <DependentUpon>202101221757034_meeting.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="WeatherClasses\" />
+    <Folder Include="SeasonClasses\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

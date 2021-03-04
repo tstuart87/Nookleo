@@ -38,3 +38,4 @@ C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.csproj.GenerateR
 C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.Migrations.second.resources
 C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.Migrations.cooperator.resources
 C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.Migrations.employee.resources
+C:\Projects\Nookleo\Nookleo\Nookleo.Data\obj\Debug\Nookleo.Data.Migrations.meeting.resources

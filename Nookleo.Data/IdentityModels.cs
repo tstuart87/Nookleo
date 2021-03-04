@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Nookleo.Data.PeopleClasses;
+using Nookleo.Data.TaskClasses;
 
 namespace Nookleo.Data
 {
@@ -39,6 +40,7 @@ namespace Nookleo.Data
         public DbSet<Location> Locations { get; set; }
         public DbSet<Cooperator> Cooperators { get; set; }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<CornTask> CornTasks { get; set; }
 
         //to here
 

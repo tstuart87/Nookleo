@@ -58,7 +58,8 @@ namespace Nookleo.Services.ServicesLocation
                                 Cooperator = e.Cooperator,
                                 TestingEmployee = e.TestingEmployee,
                                 ProductDevelopmentEmployee = e.ProductDevelopmentEmployee,
-                                BreedingEmployee = e.BreedingEmployee
+                                BreedingEmployee = e.BreedingEmployee,
+                                Tasks = ctx.CornTasks.Where(c => c.LocationId == e.LocationId && c.OwnerId == _userId)
                             }
                     );
 
@@ -88,7 +89,8 @@ namespace Nookleo.Services.ServicesLocation
                     Cooperator = entity.Cooperator,
                     TestingEmployee = entity.TestingEmployee,
                     ProductDevelopmentEmployee = entity.ProductDevelopmentEmployee,
-                    BreedingEmployee = entity.BreedingEmployee
+                    BreedingEmployee = entity.BreedingEmployee,
+                    Tasks = ctx.CornTasks.Where(c => c.LocationId == entity.LocationId && c.OwnerId == _userId)
                 };
             }
         }
